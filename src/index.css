@@ -16,7 +16,7 @@
 
 html,
 body {
-  width: 100%;
+  width: 100dvw;
   background-color: black;
   color: white;
   scroll-behavior: smooth;
@@ -78,7 +78,7 @@ body {
 
   /* Navigation */
   nav {
-    @apply fixed z-50 w-full;
+    @apply fixed z-50 w-full pl-8 pr-8;
   }
   nav div {
     @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
