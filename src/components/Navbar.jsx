@@ -24,10 +24,10 @@ export default function Navbar() {
   });
   return (
     <nav>
-      <div>
+      <div className="px-6">
         <a href="#home" className="flex items-center gap-2">
-          <img src="/images/logo.png" />
-          <p>Velvet Pour</p>
+          <img src="/images/logo.svg" className="w-12 h-12" />
+          <p>Valour Grove</p>
         </a>
 
         <ul>
