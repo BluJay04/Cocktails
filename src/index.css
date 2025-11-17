@@ -15,6 +15,15 @@
   --font-serif: "DM Serif Text", serif;
 }
 
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 html,
 body {
   width: 100%;
@@ -22,9 +31,6 @@ body {
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  &::-webkit-scrollbar {
-    display: none;
-  }
 }
 
 @utility flex-center {

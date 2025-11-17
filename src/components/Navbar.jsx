@@ -34,8 +34,8 @@ export default function Navbar() {
           {[
             { title: "Cocktails", id: "cocktails" },
             { title: "About Us", id: "about" },
-            { title: "The Art", id: "work" },
-            { title: "Contact", id: "contact" },
+            { title: "The Art", id: "art" },
+            { title: "Menu", id: "menu" },
           ].map((link) => {
             return (
               <li key={link.id}>
